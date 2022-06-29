@@ -16,6 +16,10 @@
   width: 150px;
   margin-left: 10px;
 }
+.header{
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
 .completedtodos{
   width: 180px;
   margin-left: 10px;
@@ -96,14 +100,16 @@
   box-sizing: border-box;
 }
 
-h1 {
+h2 {
   font-family: "Arima Madurai", cursive;
   color: black;
-  font-size: 4rem;
+  font-size: 2rem;
   letter-spacing: -3px;
   text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
   position: relative;
-  z-index: 3;
+  z-index: 2;
+  margin-top: 10px;
+  margin-bottom: -5px;
 }
 
 .App {
